@@ -44,8 +44,7 @@ class CarCard extends StatelessWidget {
               CircleAvatar(
                 radius: 25,
                 backgroundColor: AppColors.kScaffoldLightColor,
-                child:brand
-
+                child: brand,
               ),
               Spacing.horizontalSpace(15),
               Column(
@@ -100,13 +99,16 @@ class CarCard extends StatelessWidget {
           ),
           Spacing.verticalSpace(15),
           Expanded(
-            child: Container(
-              decoration: BoxDecoration(
-                color: AppColors.kScaffoldLightColor,
-                borderRadius: BorderRadius.circular(20),
-                image: DecorationImage(
-                  image: AssetImage(imagePath),
-                  fit: BoxFit.cover,
+            child: Hero(
+              tag: 'imageHero$model',
+              child: Container(
+                decoration: BoxDecoration(
+                  color: AppColors.kScaffoldLightColor,
+                  borderRadius: BorderRadius.circular(20),
+                  image: DecorationImage(
+                    image: AssetImage(imagePath),
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
             ),

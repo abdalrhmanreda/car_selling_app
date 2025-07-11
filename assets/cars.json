@@ -1,0 +1,230 @@
+{
+  "cars": {
+    "audi": [
+      {
+        "name": "Audi R8 V10 Performance",
+        "model": "2023 - Sport Edition",
+        "price": "$160,000",
+        "horsepower": "602 hp",
+        "transmission": "Automatic",
+        "description": "The Audi R8 delivers supercar performance with everyday usability. It features a naturally aspirated 5.2L V10 engine. The interior is wrapped in fine leather and carbon trim. Quattro all-wheel drive offers maximum traction. Ideal for those who crave both speed and style.",
+        "image": "assets/images/cars/audi/audi1.png"
+      },
+      {
+        "name": "Audi RS7 Sportback",
+        "model": "2023 - Executive Edition",
+        "price": "$125,000",
+        "horsepower": "591 hp",
+        "transmission": "Automatic",
+        "description": "Aggressive design meets luxurious comfort. Twin-turbocharged V8 for thrilling acceleration. Spacious interior with advanced tech. Adaptive air suspension for smooth rides. A bold statement on every road.",
+        "image": "assets/images/cars/audi/audi2.png"
+      },
+      {
+        "name": "Audi Q8 e-tron",
+        "model": "2024 - Electric SUV",
+        "price": "$89,000",
+        "horsepower": "402 hp",
+        "transmission": "Automatic (Electric)",
+        "description": "Fully electric SUV with bold Audi design. Smooth acceleration and long-range capability. Quiet cabin with premium features. Digital cockpit with intuitive controls. Perfect for eco-conscious drivers.",
+        "image": "assets/images/cars/audi/audi3.png"
+      },
+      {
+        "name": "Audi A6 Allroad",
+        "model": "2023 - Offroad Edition",
+        "price": "$69,000",
+        "horsepower": "335 hp",
+        "transmission": "Automatic",
+        "description": "Blends wagon comfort with SUV strength. Rugged looks with chrome accents. Air suspension adapts to any terrain. Interior built for luxury and utility. A reliable partner for adventures.",
+        "image": "assets/images/cars/audi/audi4.png"
+      },
+      {
+        "name": "Audi TT RS",
+        "model": "2023 - Coupe",
+        "price": "$75,000",
+        "horsepower": "394 hp",
+        "transmission": "Automatic",
+        "description": "Compact coupe with sharp styling. Turbocharged five-cylinder engine roars. Quattro system delivers superior grip. Sport seats and virtual cockpit inside. A thrilling ride in every curve.",
+        "image": "assets/images/cars/audi/audi5.png"
+      },
+      {
+        "name": "Audi Q5",
+        "model": "2024 - Premium Plus",
+        "price": "$54,000",
+        "horsepower": "261 hp",
+        "transmission": "Automatic",
+        "description": "Compact luxury SUV with tech-loaded cabin. Smooth ride with excellent handling. Efficient turbocharged engine. Virtual cockpit and wireless connectivity. Stylish and practical for families.",
+        "image": "assets/images/cars/audi/audi6.png"
+      }
+    ],
+    "bmw": [
+      {
+        "name": "BMW M4 Competition",
+        "model": "2023 - Coupe",
+        "price": "$78,000",
+        "horsepower": "503 hp",
+        "transmission": "Automatic",
+        "description": "High-performance sports coupe with bold grille. Twin-turbo inline-6 engine for serious power. Sport-tuned chassis for responsive handling. M-specific interior details. Designed for track and road alike.",
+        "image": "assets/images/cars/bmw/bmw1.png"
+      },
+      {
+        "name": "BMW iX",
+        "model": "2024 - Electric SUV",
+        "price": "$85,000",
+        "horsepower": "516 hp",
+        "transmission": "Automatic (Electric)",
+        "description": "BMW’s futuristic electric SUV. Minimalist interior with curved screen display. Powerful dual-motor all-wheel drive. Luxurious, silent, and zero-emissions. A new era of sustainable driving.",
+        "image": "assets/images/cars/bmw/bmw2.png"
+      },
+      {
+        "name": "BMW X5",
+        "model": "2023 - xDrive40i",
+        "price": "$65,000",
+        "horsepower": "375 hp",
+        "transmission": "Automatic",
+        "description": "Spacious midsize SUV with luxury features. Turbocharged 6-cylinder engine. Comfortable and composed ride quality. Large cargo space and towing capacity. Ideal for daily use or long trips.",
+        "image": "assets/images/cars/bmw/bmw3.png"
+      },
+      {
+        "name": "BMW 330i",
+        "model": "2023 - Sedan",
+        "price": "$44,000",
+        "horsepower": "255 hp",
+        "transmission": "Automatic",
+        "description": "Classic BMW driving dynamics in a compact sedan. Efficient and quick turbo-four engine. Refined cabin with digital tech. Smooth ride and agile cornering. A well-rounded entry-level luxury car.",
+        "image": "assets/images/cars/bmw/bmw4.png"
+      },
+      {
+        "name": "BMW Z4 Roadster",
+        "model": "2023 - Convertible",
+        "price": "$53,000",
+        "horsepower": "382 hp",
+        "transmission": "Automatic",
+        "description": "Sporty convertible with aggressive lines. Turbocharged inline-6 delivers a thrilling drive. Open-top fun with premium comfort. Driver-focused cockpit layout. Perfect for weekend cruising.",
+        "image": "assets/images/cars/bmw/bmw5.png"
+      }
+    ],
+    "chevrolet": [
+      {
+        "name": "Chevrolet Corvette Stingray",
+        "model": "2023 - Coupe",
+        "price": "$68,000",
+        "horsepower": "495 hp",
+        "transmission": "Automatic",
+        "description": "Mid-engine sports car with iconic styling. V8 engine for powerful launches. Driver-centric cockpit with digital displays. Balanced handling and strong grip. American muscle redefined.",
+        "image": "assets/images/cars/chevrolet/chevrolet1.png"
+      },
+      {
+        "name": "Chevrolet Tahoe",
+        "model": "2023 - Full-Size SUV",
+        "price": "$63,000",
+        "horsepower": "355 hp",
+        "transmission": "Automatic",
+        "description": "Large SUV built for family and adventure. Spacious three-row seating and cargo. V8 engine with towing strength. Tech-forward cabin with large screens. Dominates city or off-road.",
+        "image": "assets/images/cars/chevrolet/chevrolet2.png"
+      },
+      {
+        "name": "Chevrolet Silverado",
+        "model": "2023 - LT Trail Boss",
+        "price": "$56,000",
+        "horsepower": "420 hp",
+        "transmission": "Automatic",
+        "description": "Durable full-size pickup truck. Off-road suspension and lifted stance. Crew cab with modern tech. Ready for heavy-duty tasks and trails. A workhorse with style.",
+        "image": "assets/images/cars/chevrolet/chevrolet3.png"
+      },
+      {
+        "name": "Chevrolet Bolt EV",
+        "model": "2023 - Electric Hatchback",
+        "price": "$27,000",
+        "horsepower": "200 hp",
+        "transmission": "Automatic (Electric)",
+        "description": "Affordable electric hatchback. Smooth, quiet, and efficient drive. Spacious for its size. Loaded with safety and tech features. Great for urban commuting.",
+        "image": "assets/images/cars/chevrolet/chevrolet4.png"
+      }
+    ],
+    "hyundai": [
+      {
+        "name": "Hyundai Elantra N",
+        "model": "2023 - Performance Sedan",
+        "price": "$32,000",
+        "horsepower": "276 hp",
+        "transmission": "Manual",
+        "description": "Sporty compact sedan with turbo power. Bold styling and aggressive accents. Engaging drive with manual gearbox. N-mode delivers sharper handling. Affordable and fun to drive.",
+        "image": "assets/images/cars/hyundai/hyundai1.png"
+      },
+      {
+        "name": "Hyundai Ioniq 6",
+        "model": "2024 - Electric Sedan",
+        "price": "$45,000",
+        "horsepower": "320 hp",
+        "transmission": "Automatic (Electric)",
+        "description": "Streamlined EV with futuristic looks. Dual motors and long driving range. Minimal interior with big screens. Fast charging and efficient design. Next-gen mobility in style.",
+        "image": "assets/images/cars/hyundai/hyundai2.png"
+      },
+      {
+        "name": "Hyundai Tucson",
+        "model": "2023 - Limited AWD",
+        "price": "$37,000",
+        "horsepower": "187 hp",
+        "transmission": "Automatic",
+        "description": "Compact SUV with cutting-edge design. Spacious interior with digital cluster. Smooth ride and smart safety tech. Available hybrid and AWD versions. Practical and efficient daily driver.",
+        "image": "assets/images/cars/hyundai/hyundai3.png"
+      },
+      {
+        "name": "Hyundai Palisade",
+        "model": "2023 - Calligraphy",
+        "price": "$50,000",
+        "horsepower": "291 hp",
+        "transmission": "Automatic",
+        "description": "Flagship 3-row SUV with upscale finish. Roomy cabin and plush seating. Tech-rich infotainment system. Smooth power delivery and ride comfort. Ideal for large families.",
+        "image": "assets/images/cars/hyundai/hyundai4.png"
+      },
+      {
+        "name": "Hyundai Kona N",
+        "model": "2023 - Compact Crossover",
+        "price": "$34,000",
+        "horsepower": "276 hp",
+        "transmission": "Automatic",
+        "description": "High-performance small SUV. Turbocharged engine with sport exhaust. Unique N styling inside and out. Compact size, big personality. Great for spirited urban drives.",
+        "image": "assets/images/cars/hyundai/hyundai5.png"
+      },
+      {
+        "name": "Hyundai Santa Fe Hybrid",
+        "model": "2023 - AWD",
+        "price": "$41,000",
+        "horsepower": "226 hp",
+        "transmission": "Automatic",
+        "description": "Hybrid midsize SUV with all-wheel drive. Comfortable and family-friendly interior. Strong safety scores and tech. Great fuel economy for its size. Balanced blend of power and efficiency.",
+        "image": "assets/images/cars/hyundai/hyundai6.png"
+      }
+    ],
+    "mercedes": [
+      {
+        "name": "Mercedes-AMG C63 S",
+        "model": "2023 - Performance Sedan",
+        "price": "$91,000",
+        "horsepower": "503 hp",
+        "transmission": "Automatic",
+        "description": "Track-bred sedan with premium luxury. Hand-built V8 engine roars. AMG ride control and dynamic handling. Sporty interior with high-end materials. Unmatched performance in its class.",
+        "image": "assets/images/cars/mercedes/auto-png-30956.png"
+      },
+      {
+        "name": "Mercedes EQS",
+        "model": "2023 - Luxury Electric",
+        "price": "$105,000",
+        "horsepower": "516 hp",
+        "transmission": "Automatic (Electric)",
+        "description": "Flagship EV with futuristic luxury. Hyperscreen spans entire dashboard. Ultra-quiet ride and long range. Spacious cabin with ambient lighting. Sustainable, yet sophisticated.",
+        "image": "assets/images/cars/mercedes/auto-png-30966.png"
+      },
+      {
+        "name": "Mercedes GLC 300",
+        "model": "2023 - SUV",
+        "price": "$48,000",
+        "horsepower": "255 hp",
+        "transmission": "Automatic",
+        "description": "Compact luxury SUV with refined drive. MBUX infotainment with voice command. Premium materials and stylish finish. Smooth ride with agile handling. Everyday luxury with Mercedes elegance.",
+        "image": "assets/images/cars/mercedes/mercedes1.png"
+      }
+    ]
+  }
+}

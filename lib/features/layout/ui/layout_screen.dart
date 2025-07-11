@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sayaraty/features/fav/ui/screens/fav_screen.dart';
 import 'package:sayaraty/features/home/ui/screens/home.dart';
 import 'package:sayaraty/features/layout/widgets/custom_nav_bar.dart';
 
@@ -11,12 +12,18 @@ class LayoutScreen extends StatefulWidget {
 
 class _LayoutScreenState extends State<LayoutScreen> {
   int currentIndex = 0;
+  List<Widget> screens = [
+    HomeScreen(),
+    FavScreen(),
+    Column(),
+    // Add other screens here, e.g., FavoritesScreen(), ProfileScreen(), etc.
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       extendBody: true,
-      body: HomeScreen(),
+      body: screens[currentIndex],
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 15),
         child: CustomNavBar(

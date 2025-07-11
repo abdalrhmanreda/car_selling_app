@@ -1,8 +1,10 @@
 import 'package:bloc/bloc.dart';
+
 // import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:sayaraty/config/routes/router.dart';
 import 'package:sayaraty/config/routes/routes_path.dart';
+import 'package:sayaraty/core/cache/hive_cache.dart';
 import 'package:sayaraty/core/cache/shared_pref.dart';
 import 'package:sayaraty/core/di/dependancy_injection.dart';
 import 'package:sayaraty/core/observer/bloc_observer.dart';
@@ -17,6 +19,7 @@ void main() async {
   // }
 
   await SharedPrefService().init();
+  await HiveCache.openHive();
   Bloc.observer = MyBlocObserver();
 
   bool isFirstTime = SharedPrefService().getBool('isFirstTime') ?? true;

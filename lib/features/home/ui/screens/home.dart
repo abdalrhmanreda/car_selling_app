@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:sayaraty/core/helpers/extension.dart';
 import 'package:sayaraty/core/helpers/spacing.dart';
+import 'package:sayaraty/features/car_details/ui/screens/car_details_screen.dart';
 import 'package:sayaraty/features/home/data/car_model.dart';
 import 'package:sayaraty/features/home/logic/cubit.dart';
 
@@ -104,14 +106,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       Spacing.verticalSpace(25),
                   itemBuilder: (context, index) {
                     final car = cars[index];
-                    return CarCard(
-                      brand: brands[currentIndex],
-                      brandName: car.name,
-                      model: car.model,
-                      year: '2025',
-                      km: car.horsepower,
-                      price: car.price,
-                      imagePath: car.image,
+                    return GestureDetector(
+                      onTap: (){
+                        context.pushWithScale(
+                          CarDetailsScreen(car: car,)
+                        );
+                      },
+                      child: CarCard(
+                        brand: brands[currentIndex],
+                        brandName: car.name,
+                        model: car.model,
+                        year: '2025',
+                        km: car.horsepower,
+                        price: car.price,
+                        imagePath: car.image,
+
+                      ),
                     );
                   },
                 ),
