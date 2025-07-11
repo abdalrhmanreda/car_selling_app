@@ -1,0 +1,15 @@
+abstract class Routes {
+  static const String splash = '/splash';
+  static const String onBoarding = '/onBoarding';
+  static const String login = '/login';
+  static const String home = '/home';
+  static const String profile = '/profile';
+  static const String favorites = '/favorites';
+  static const String cart = '/cart';
+  static const String signUp = '/signUp';
+  static const String layout = '/layout';
+  static const String update = '/update';
+  static const String wallet = '/wallet';
+  static const String walletDetails = '/walletDetails';
+  static const String createAccount = '/createAccount';
+}
