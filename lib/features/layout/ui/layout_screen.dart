@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sayaraty/features/fav/ui/screens/fav_screen.dart';
 import 'package:sayaraty/features/home/ui/screens/home.dart';
 import 'package:sayaraty/features/layout/widgets/custom_nav_bar.dart';
+import 'package:sayaraty/features/profile/ui/profile_screen.dart';
 
 class LayoutScreen extends StatefulWidget {
   const LayoutScreen({super.key});
@@ -15,7 +16,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
   List<Widget> screens = [
     HomeScreen(),
     FavScreen(),
-    Column(),
+    ProfileScreen(),
     // Add other screens here, e.g., FavoritesScreen(), ProfileScreen(), etc.
   ];
 
